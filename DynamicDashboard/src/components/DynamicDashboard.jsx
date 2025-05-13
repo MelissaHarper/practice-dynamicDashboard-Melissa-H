@@ -1,16 +1,18 @@
-import TodaysDate from "./Date";
+import DisplayDate from "./DisplayDate";
 import Greeting from "./Greeting";
-import PremiumMessage from "./premium";
-import ToDoList from "./TaskList";
+import Premium from "./premium";
+import TaskCount from "./TaskCount";
+import TaskList from "./TaskList";
 
 
 export default function DynamicDashboard() {
     return(
         <div>
-            <TodaysDate />
+            <DisplayDate />
             <Greeting />
-            <PremiumMessage />
-            <ToDoList/>
+            <Premium />
+            <TaskList/>
+            <TaskCount/>
         </div>);
 
 }
